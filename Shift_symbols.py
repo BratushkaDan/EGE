@@ -1,3 +1,4 @@
+# Если нужно сдвигать символы на сколько-то
 a = 'abcdefghijklmnopqrstuvwxyz'
 st = input()
 nstr = ''

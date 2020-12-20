@@ -1,8 +1,6 @@
-n = int(input())
-c, d1, d2, d17, d34 = 0, 0, 0, 0, 0
+c, d1, d2, d17, d34 = [0] * 5
 
-for i in range(n):
-    x = int(input())
+for x in file:
     if x % 34 == 0:
         c += d1
         d34 += 1
